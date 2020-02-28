@@ -13,6 +13,6 @@ public class Problem11 {
                 break;
             }
             else i++;
-        if (n%2!=0) System.out.println(n+" is prime number.");
+        if (n%i!=0) System.out.println(n+" is prime number.");
     }
 }
