@@ -16,5 +16,6 @@ public class Problem11 {
         if (n==2) System.out.println(n+" is not prime number.");
         else if (n==i) System.out.println(n+" is prime number.");
         else if (n==1) System.out.println(n+" is prime number.");
+        else if (n==0) System.out.println("you have typed 0");
     }
 }
