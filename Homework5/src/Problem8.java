@@ -12,12 +12,12 @@ public class Problem8 {
             arr[i] = scanner.nextInt();
         }
         int x;
-        for (int i = 0; i < arr.length - 1; i++)
-        for(int j=0; j<arr.length-i-1; j++)
+        int j=arr.length-1;
+        for (int i = 0; i < arr.length-i-1; i++)
         {
-            x = arr[j + 1];
-            arr[j + 1] = arr[j];
-            arr[j] = x;
+            x = arr[j];
+            arr[j] = arr[i];
+            arr[i] = x; j--;
         }
         System.out.println("Reverse of input array will look like:");
         for (int i = 0; i < arr.length; i++) {
