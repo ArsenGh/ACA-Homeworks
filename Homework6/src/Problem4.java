@@ -6,7 +6,7 @@ public class Problem4 {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("Input a string: ");
-            String a = scanner.next();
+            String a = scanner.nextLine();
             char[] arr = a.toCharArray();
             System.out.print("Input count of rotation: ");
             int n = scanner.nextInt();

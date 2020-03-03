@@ -6,7 +6,7 @@ public class Problem6 {
         while(true)
         {
         System.out.print("Input parenthesis sequence: ");
-        String seq = scanner.next();
+        String seq = scanner.nextLine();
         char[] arr = seq.toCharArray();
         if (seq.length() % 2 != 0) System.out.println("Invalid");
         else if (arr[0] != '(' || arr[arr.length - 1] != ')') System.out.println("Invalid");
