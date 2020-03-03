@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Problem4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (true) {
             System.out.print("Input a string: ");
             String a = scanner.nextLine();
             char[] arr = a.toCharArray();
@@ -21,6 +20,5 @@ public class Problem4 {
                 }
                 System.out.println(new String(arr));
             }
-        }
     }
 }
