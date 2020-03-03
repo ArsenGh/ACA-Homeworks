@@ -27,7 +27,7 @@ public class Problem5 {
             boolean match = false;
             int i=0;
             int j=0;
-            for( i=0;i<=arr2.length-1;i++)
+            for( i=0;i<arr2.length-1;i++)
             {
                 if(arr2[j]==sum[i]&&arr2[j+1]==sum[i+1])
                 {
