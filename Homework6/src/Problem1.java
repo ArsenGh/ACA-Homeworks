@@ -10,7 +10,7 @@ public class Problem1 {
             int k = scanner.nextInt();
             char[] check = arr.toCharArray();
             if (k >= check.length||k<0) {
-                System.out.println("Index is out of borders");
+                System.out.println("Index is out of bounds");
                 continue;
             } else {
                 System.out.println("Character at index " + k + " is: " + check[k]);
