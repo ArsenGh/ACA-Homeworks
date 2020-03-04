@@ -18,11 +18,13 @@ public class Problem10 {
         boolean match = false;
             for (int i = 0; i < arr.length; i++) {
                 int count = 0;
+                boolean trash = false;
                 for (int j = 1; j < arr.length; j++) {
                     if (arr[i] == arr[j])
+                        if(i>j) { trash=true; break;}
                         count++;
                 }
-                if (k == count) {
+                if (k == count&& !trash) {
                     System.out.println("Element " + arr[i] + " occurs " + k + " times");
                     match = true;
                     break;
