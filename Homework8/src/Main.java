@@ -32,7 +32,7 @@ public class Main {
         if(A.totalbalance > B.totalbalance) {
             System.out.println("Company A's balance is higher: "+A.totalbalance);
         }
-        else if (A.totalbalance > B.totalbalance)
+        else if (A.totalbalance < B.totalbalance)
         {
             System.out.println("Company B's balance is higher: "+B.totalbalance);
         }
